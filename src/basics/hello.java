@@ -9,6 +9,11 @@
 // Byte Code -> JVM (Java Virtual Machine)
 // OS -> Hardware -> Return back.
 
+
+// JVM executes only one file besides how many files are there in the project.
+// and that file needs to specified by the programmer and it needs to contain main method. That main medtod file is executed by JVM.
+
+
 package basics;
 
 public class hello {
