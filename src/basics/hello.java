@@ -2,12 +2,12 @@
 
 // Our computer does not understand java code directly so it needs to be converted.
 // That why our compiler converts Java code into Byte code so that JVM (Java Virtual Machine)
-// can understand and make our OS then hardware understand the code and perform our desired output.
+// can understand then, JRE (Java Runtime Environment) is present on top of JVM to make our OS then hardware understand the code and perform our desired output.
 // Refer to this diagram below - 
 
-// We(source code) -> Compiler ->
-// Byte Code -> JVM (Java Virtual Machine)
-// OS -> Hardware -> Return back.
+// We/Java(source code) -> Compiler ->
+// Byte Code -> JVM (Java Virtual Machine) ->
+// JRE(Java Runtime Environment) -> OS -> Hardware -> Return back the output.
 
 
 // JVM executes only one file besides how many files are there in the project.
